@@ -1,0 +1,145 @@
+html {background-color: rgb(116, 62, 185);}
+
+input[type=text]
+{
+	width: 100px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#abc{
+	/*border: 1px solid black;*/
+	width: 200px;
+	position: absolute;
+	left: 740px;
+	top: 140px;
+}
+
+#XnShag{
+	/*border: 1px solid black;*/
+	width: 200px;
+	position: absolute;
+	top: 140px;
+	left: 950px;
+}
+
+#func{
+	/*border: 1px solid black;*/
+	position: absolute;
+	left: 800px;
+	top: 300px;
+}
+
+input[name='a']
+{
+	margin-left: 2px;
+	height: 30px;
+	width: 50px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+input[name='b']{
+	width: 50px;
+	height: 30px;
+	margin-left: 2px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+input[name='c']
+{
+	height: 30px;
+	width: 50px;
+	margin-left: 4px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+input[name='xmin']
+{
+	margin-left: 5px;
+	height: 30px;
+	width: 50px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+input[name='max']{
+	width: 50px;
+	height: 30px;
+	margin-left: 2px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+input[name='shag']
+{
+	height: 30px;
+	width: 50px;
+	margin-left: 20px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+input[name="functions"]{
+	border-radius: 4px;
+	border-style: none;
+	height: 30px;
+}
+
+form
+{
+	background-color: rgb(109, 145, 179);
+	border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+	width: 500px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.field
+{
+	border: 1px solid white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]
+{
+	background-color: rgb(45, 70, 117);
+	width:100px;
+	float: center;
+	border-radius: 4px;
+	border-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	padding: 8px 16px;
+}
+input[type=submit]:hover{
+	background-color: rgb(68, 106, 177);
+}
+
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
